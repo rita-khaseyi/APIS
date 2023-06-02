@@ -1,0 +1,400 @@
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px ;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  .gad{
+    font-size: 30px;
+
+  }
+  .get{
+    font-size: 30px;
+    color: yellow;
+
+  }
+  .button{
+    font-size: 30px;
+    background-color: yellow;
+    margin-left: 30px;
+  }
+  
+ .card{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .card img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 2px 4px rgba(11, 10, 10, 0.1);
+   
+    
+ }
+ .card {
+    margin-top: 1%;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+  }
+  
+  
+  
+  .card h2 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .cards {
+    width: 800px;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 2%;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+  }
+  
+  .search-bar i {
+    margin-left: 10px;
+    color: #888;
+  }
+  .card3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .partner{
+    font-size: 100px;
+  }
+  .section1 img{
+    width: 700px;
+    height: 500px;
+    
+  }
+  .section1{
+    /* background-color: #ddbedd;#d654f7 */
+    
+        background: linear-gradient(45deg, #799ea9, #d3cad4);
+      
+      
+  }
+  .variations{
+    font-size: 30px;
+  }
+  .but1 {
+    background-color: yellow;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    /* border-radius: 5px; */
+    font-size: 16px;
+  }
+  
+  .but2 {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    /* border-radius: 5px; */
+    font-size: 16px;
+  }
+  
+  .but2:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .butts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 250px;
+    height: 300px;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.smart{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, #799ea9, #d3cad4);
+}
+.next{
+    font-size: 100px;
+
+}
+.off{
+    color: yellow;
+}
+.design{
+    font-size: 30px;
+}
+.smart img{
+    width: 500px;
+    height: 500px;
+}
+hr {
+    height: 5px;
+    background-image: linear-gradient(to right, yellow 25%, black 25%, black);
+    border: none;
+    margin: 20px 0;
+  }
+.testimonials p{
+    text-align: center;
+    font-size: 20px;
+}  
+.testimonials h1{
+    text-align: center;
+    font-size: 50px;
+}
+.testi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.p1{
+    font-size: 30px;
+}
+.hrs{
+    font-size: 20px;
+}
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+input[type="email"] {
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+.fa-envelope {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #333;
+}
+.newsletter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.newsletter p{
+  font-size: 30px;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: space-evenly;
+  gap: 20px;
+  color: #f2f2f2;
+  width: 100%;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+.gadget{
+  color: yellow;
+}
+.sma{
+  font-size: 30px;
+}
+
+#products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product{
+  border: solid grey;
+  
+  margin-bottom: 3%;
+  border-radius: 5px;
+  text-align: center;
+}
+.product img{
+  width: 350px;
+  height: 350px;
+}
+
+
+/* -------------------------MEDIA QUERIES------------------------------------- */
+@media (max-width: 767px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li a {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    padding: 50px ;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cards {
+    width: 200px;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 2%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+ }
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  display: inline-block;
+}
+.partner{
+  font-size: 50px;
+}
+.section1 img{
+  width: 300px;
+  height: 300px;
+}
+.section2 img{
+  width: 300px;
+  height: 300px;
+}
+.next{
+  font-size: 40px;
+
+}
+.smart img{
+  width: 300px;
+  height: 300px;
+}
+.p1{
+  font-size: 20px;
+}
+.testimonials h1{
+  font-size: 20px;
+}
+.testi img{
+  width: 300px;
+  height: 300px;
+}
+hr {
+  height: 1px;
+  background-image: linear-gradient(to right, yellow 25%, black 25%, black);
+  border: none;
+  margin: 20px 0;
+}
+.butts{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+
+}
+
+  
+  
+  
+  
+  
+  
+  
