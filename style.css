@@ -105,7 +105,7 @@ nav {
   }
   .section1{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
   }
   .partner{
@@ -173,7 +173,7 @@ nav {
   
 .images{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .images img{
     width: 250px;
@@ -356,6 +356,12 @@ nav ul li {
   width: 300px;
   height: 300px;
 }
+.section1{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
 .next{
   font-size: 40px;
 
@@ -376,6 +382,7 @@ nav ul li {
 }
 hr {
   height: 1px;
+  display: none;
   background-image: linear-gradient(to right, yellow 25%, black 25%, black);
   border: none;
   margin: 20px 0;
@@ -385,6 +392,17 @@ hr {
   flex-wrap: wrap;
   gap: 20px;
 }
+.images{
+  display: flex;
+  flex-direction: column
+  ;
+  /* flex-wrap: wrap; */
+}
+.product img{
+  width: 300px;
+  height: 300px;
+}
+
 
 
 
