@@ -21,17 +21,23 @@ const displayProducts=async()=>{
         let brand=document.createElement('p');
         let price=document.createElement('p');
         let ratings=document.createElement('h4');
+        let addToCartBtn = document.createElement('button');
+      addToCartBtn.innerText = 'Add to Cart';
+        
 
         images.src=item.thumbnail
         title.innerHTML=item.title;
         brand.innerHTML=item.brand
         price.innerHTML=item.price
         ratings.innerHTML=item.rating
+       
         div.appendChild(images)
         div.appendChild(title)
         div.appendChild(brand)
         div.appendChild(price)
         div.appendChild(ratings)
+        div.appendChild(addToCartBtn)
+       
         div.setAttribute('key',item.id);
         div.setAttribute('class','product');
         productsContainer.appendChild(div)

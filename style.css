@@ -295,7 +295,7 @@ footer {
   justify-content: space-evenly;
 }
 .product{
-  border: solid grey;
+  border: solid grey 2px;
   
   margin-bottom: 3%;
   border-radius: 5px;
@@ -304,6 +304,10 @@ footer {
 .product img{
   width: 350px;
   height: 350px;
+}
+.product button{
+  background-color: yellow;
+  font-size: 24px;
 }
 
 
@@ -402,6 +406,7 @@ hr {
   width: 300px;
   height: 300px;
 }
+
 
 
 
